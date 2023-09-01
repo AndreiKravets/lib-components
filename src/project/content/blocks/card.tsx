@@ -6,34 +6,34 @@ import { H3, P } from '../../../my-lib/components/typography'
 import { Box, Col, Row } from '../../../my-lib/layout'
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai"
 
-const BlocksCard = () => {
-
-  const data = [
+const data = [
     {
-      img: 'https://loremflickr.com/640/350',
-      title: 'Kuza',
+        img: 'https://loremflickr.com/640/350',
+        title: 'Kuza',
     },
     {
-      img: 'https://loremflickr.com/640/340',
-      title: 'Petro',
+        img: 'https://loremflickr.com/640/340',
+        title: 'Petro',
     },
     {
-      img: 'https://loremflickr.com/640/345',
-      title: 'Vlad',
+        img: 'https://loremflickr.com/640/345',
+        title: 'Vlad',
     },
     {
-      img: 'https://loremflickr.com/640/355',
-      title: 'Ilya',
+        img: 'https://loremflickr.com/640/355',
+        title: 'Ilya',
     },
     {
-      img: 'https://loremflickr.com/640/360',
-      title: 'Slava',
+        img: 'https://loremflickr.com/640/360',
+        title: 'Slava',
     },
     {
-      img: 'https://loremflickr.com/640/344',
-      title: 'Kravets',
+        img: 'https://loremflickr.com/640/344',
+        title: 'Kravets',
     }
-  ]
+]
+
+const BlocksCard = () => {
 
   const [favorits, setFavorits] = useState([''])
   const [showFavorits, setShowFavorits] = useState(false)
